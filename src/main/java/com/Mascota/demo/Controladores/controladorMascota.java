@@ -1,2 +1,4 @@
-package com.Mascota.demo.Controladores;public class controladorMascota {
+package com.Mascota.demo.Controladores;
+
+public class controladorMascota {
 }
