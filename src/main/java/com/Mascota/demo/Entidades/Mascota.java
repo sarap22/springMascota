@@ -3,13 +3,19 @@ package com.Mascota.demo.Entidades;
 public class Mascota {
     private String nombre;
     private int codigo;
+    private String tipo;
     private String raza;
     private int peso;
     private int edad;
 
-    public Mascota(String nombre, int codigo, String raza, int peso, int edad) {
+    public Mascota() {
+
+    }
+
+    public Mascota(String nombre, int codigo, String tipo, String raza, int peso, int edad) {
         this.nombre = nombre;
         this.codigo = codigo;
+        this.tipo = tipo;
         this.raza = raza;
         this.peso = peso;
         this.edad = edad;
@@ -29,6 +35,14 @@ public class Mascota {
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
     public String getRaza() {
